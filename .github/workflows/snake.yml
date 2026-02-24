@@ -1,31 +1,24 @@
-name: Generate Snake
+name: Update Profile Stats
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # التشغيل كل 6 ساعات
-  workflow_dispatch: # التشغيل اليدوي
+    - cron: "0 */12 * * *" # كل 12 ساعة
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Generate Snake
-        uses: Platane/snk@v3
+      - name: Generate GitHub Profile Summary
+        uses: lowlighter/metrics@latest
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ERRIFI-X
+          template: classic
+          base: header, activity, repositories
+          config_timezone: Africa/Casablanca
+          output_action: commit
