@@ -22,3 +22,4 @@ jobs:
           base: header, activity, repositories
           filename: github-metrics.svg
           output_action: commit
+          branch: output
