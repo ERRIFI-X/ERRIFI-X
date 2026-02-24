@@ -1,8 +1,8 @@
-name: Update Profile Stats
+name: GitHub Profile Metrics
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # كل 12 ساعة
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate GitHub Profile Summary
+      - name: Generate Metrics
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: ERRIFI-X
           template: classic
           base: header, activity, repositories
-          config_timezone: Africa/Casablanca
+          filename: github-metrics.svg
           output_action: commit
