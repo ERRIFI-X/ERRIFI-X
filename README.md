@@ -43,18 +43,14 @@ const errifi = {
 </div>
 </div>
 
-<div style="padding: 15px; border-left: 4px solid #FFD700; background: #0d1117; border-radius: 8px;">
+## 🚀 Current Focus
 
-<h2 style="color:#FFD700;">🚀 Current Focus</h2>
+> Focused on improving my skills and building real-world projects.
 
-<ul style="list-style: none; padding-left: 0; color: #ffffff;">
-  <li>⚛️ Advanced React (Hooks, Performance, State Management)</li>
-  <li>🚀 Laravel 10+ Architecture & APIs</li>
-  <li>☁️ Cloud & Deployment Basics (CI/CD)</li>
-  <li>🎨 UI/UX Modern Design Systems</li>
-</ul>
-
-</div>
+- ⚛️ Advanced React (Hooks, Performance, State Management)  
+- 🚀 Laravel APIs & Architecture  
+- ☁️ Cloud & CI/CD Basics  
+- 🎨 Modern UI/UX Design  
 <div>
   
  ## 👯 **Collaboration**
