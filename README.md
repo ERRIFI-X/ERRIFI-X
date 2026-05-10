@@ -26,24 +26,30 @@
 
 <div>
   
-## 🚀 About Me
+##  About Me
 
 <div style="background: linear-gradient(90deg, rgba(255,215,0,0.1) 0%, rgba(255,140,0,0.1) 100%); padding: 20px; border-radius: 10px; border-left: 4px solid #FFD700;">
 
 ```javascript
-const abdo = {
-    name: "ABDELBASSTE Errifi",
-    role: "Full Stack Developer",
-    location: "Morocco 🌍",
-    currentProject: "TripShare",
-    stack: ["React", "Laravel", "Node.js", "PHP", "JavaScript"],
-    passions: ["Web Development", "Open Source", "Travel Tech"],
-    funFact: "Debugging life, one bug at a time 🐞"
+const errifi = {
+  name: "ABDELBASSTE ERRIFI",
+  role: "Full Stack Developer",
+  location: "Morocco 🌍",
+  stack: ["React", "Laravel", "Node.js", "PHP", "JavaScript"],
+  interests: ["Web Apps", "Open Source", "Travel Tech", "System Design"],
+  mindset: "Build. Break. Learn. Repeat 🔥"
 };
 ```
 </div>
 </div>
 
+<div>
+  ## 🚀 **Current Focus**
+⚛️ Advanced React (Hooks, Performance, State Management)
+🚀 Laravel 10+ Architecture & APIs
+☁️ Cloud & Deployment Basics (CI/CD)
+🎨 UI/UX Modern Design Systems
+</div>
 <div>
   
  ## 👯 **Collaboration**
