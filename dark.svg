@@ -156,7 +156,7 @@
       <circle cx="28" cy="22" r="5.5" fill="#FF5F56" />
       <circle cx="46" cy="22" r="5.5" fill="#FFBD2E" />
       <circle cx="64" cy="22" r="5.5" fill="#27C93F" />
-      <text x="345" y="26" class="font-mono" font-size="12" text-anchor="middle" fill="#94A3B8">errifi@macbook-pro ~ zsh</text>
+      <text x="345" y="26" class="font-mono" font-size="12" text-anchor="middle" fill="#94A3B8">errifi@developer ~ zsh</text>
       <text x="665" y="26" class="font-mono" font-size="11" text-anchor="end" fill="#94A3B8">UTF-8</text>
       <line x1="0" y1="44" x2="690" y2="44" stroke="#1F293D" stroke-width="1" />
 
@@ -178,11 +178,11 @@
         </g>
         <!-- Animated Phrase 3 -->
         <g clip-path="url(#typeClip3)">
-          <text x="22" y="24" class="font-mono" font-size="19" font-weight="700" fill="#F8FAFC">Multi-Tenant SaaS Architect</text>
+          <text x="22" y="24" class="font-mono" font-size="19" font-weight="700" fill="#F8FAFC">Modern Web Architect</text>
         </g>
         <!-- Animated Phrase 4 -->
         <g clip-path="url(#typeClip4)">
-          <text x="22" y="24" class="font-mono" font-size="19" font-weight="700" fill="#F8FAFC">SGAFO Platform Creator</text>
+          <text x="22" y="24" class="font-mono" font-size="19" font-weight="700" fill="#F8FAFC">TypeScript &amp; PHP Engineer</text>
         </g>
 
         <!-- Blinking Typing Cursor -->
@@ -196,20 +196,20 @@
 
       <!-- SEQUENTIALLY REVEALED INFO DETAILS -->
       <g transform="translate(35, 198)">
-        <!-- Item 1: Education -->
+        <!-- Item 1: Location -->
         <g transform="translate(0, 0)">
+          <text x="0" y="14" class="font-mono" font-size="13" font-weight="600" fill="#6366F1">📍 Location:</text>
+          <text x="135" y="14" class="font-sans" font-size="13.5" font-weight="500" fill="#F8FAFC">Marrakech, Morocco 🇲🇦</text>
+        </g>
+        <!-- Item 2: Education -->
+        <g transform="translate(0, 28)">
           <text x="0" y="14" class="font-mono" font-size="13" font-weight="600" fill="#6366F1">🎓 Education:</text>
           <text x="135" y="14" class="font-sans" font-size="13.5" font-weight="500" fill="#F8FAFC">ISTA NTIC Marrakech (Full-Stack Track)</text>
         </g>
-        <!-- Item 2: Current Focus -->
-        <g transform="translate(0, 28)">
-          <text x="0" y="14" class="font-mono" font-size="13" font-weight="600" fill="#6366F1">💈 Focus:</text>
-          <text x="135" y="14" class="font-sans" font-size="13.5" font-weight="500" fill="#F8FAFC">Multi-tenant Barbershop SaaS (Client Beta)</text>
-        </g>
-        <!-- Item 3: Flagship PFE -->
+        <!-- Item 3: Specialty -->
         <g transform="translate(0, 56)">
-          <text x="0" y="14" class="font-mono" font-size="13" font-weight="600" fill="#6366F1">🚀 Flagship:</text>
-          <text x="135" y="14" class="font-sans" font-size="13.5" font-weight="500" fill="#F8FAFC">SGAFO — Enterprise Trainer Management (OFPPT)</text>
+          <text x="0" y="14" class="font-mono" font-size="13" font-weight="600" fill="#6366F1">⚡ Specialty:</text>
+          <text x="135" y="14" class="font-sans" font-size="13.5" font-weight="500" fill="#F8FAFC">Laravel 12 · React 18 · TypeScript</text>
         </g>
         <!-- Item 4: Email -->
         <g transform="translate(0, 84)">

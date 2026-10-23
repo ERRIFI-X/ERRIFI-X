@@ -54,7 +54,7 @@ I am a **Full-Stack Developer** based in **Marrakech, Morocco 🇲🇦**, traine
 
 My primary stack bridges **Laravel** on the backend and **React + TypeScript + Inertia.js** on the frontend. I build robust web architectures with clean separation of concerns, secure role-based access systems (RBAC), and smooth, reactive user experiences.
 
-Currently, I am engineering a **multi-tenant SaaS platform for barbershop business management** (queue dispatching, automated notifications, payments, and real-time business KPIs), while actively exploring **full-stack engineering roles (CDI, Freelance, or Remote)**.
+I am actively exploring **full-stack engineering opportunities (CDI, Freelance, or Remote)** to build high-performance web applications and robust digital platforms.
 
 ```typescript
 const abdelbasste: Developer = {
@@ -67,8 +67,6 @@ const abdelbasste: Developer = {
     databases: ["PostgreSQL", "MySQL", "Eloquent ORM"],
     devOpsAndTools: ["Vite", "Docker", "Git", "GitHub Actions", "Postman", "DomPDF"]
   },
-  flagshipProject: "SGAFO — Enterprise Trainer Management for OFPPT 🎓",
-  currentFocus: "Scaling Multi-tenant Barbershop SaaS & High-Performance Web Apps 🚀",
   availability: "🟢 Open to Full-Stack Opportunities (On-site / Hybrid / Remote)"
 };
 ```
