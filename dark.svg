@@ -199,10 +199,10 @@
           <text x="0" y="14" class="font-mono" font-size="13.5" font-weight="600" fill="#6366F1">🎓 Education:</text>
           <text x="135" y="14" class="font-sans" font-size="14" font-weight="500" fill="#F8FAFC">ISTA NTIC Marrakech (Full-Stack Track)</text>
         </g>
-        <!-- Item 2: Location -->
+        <!-- Item 2: Flagship -->
         <g transform="translate(0, 32)">
-          <text x="0" y="14" class="font-mono" font-size="13.5" font-weight="600" fill="#6366F1">📍 Location:</text>
-          <text x="135" y="14" class="font-sans" font-size="14" font-weight="500" fill="#F8FAFC">Marrakech, Morocco 🇲🇦</text>
+          <text x="0" y="14" class="font-mono" font-size="13.5" font-weight="600" fill="#6366F1">🚀 Flagship:</text>
+          <text x="135" y="14" class="font-sans" font-size="13.5" font-weight="500" fill="#F8FAFC">SGAFO — Enterprise Trainer Management (OFPPT)</text>
         </g>
         <!-- Item 3: Email -->
         <g transform="translate(0, 64)">
