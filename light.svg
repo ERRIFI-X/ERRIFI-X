@@ -121,17 +121,15 @@
       <text x="195" y="315" class="font-sans" font-size="22" font-weight="800" text-anchor="middle" fill="#0F172A">Abdelbasste Errifi</text>
       <text x="195" y="338" class="font-mono" font-size="13" font-weight="600" text-anchor="middle" fill="#4F46E5">@ERRIFI-X</text>
 
-      <!-- Minimal Badges under Avatar -->
+      <!-- Role and Location under Avatar -->
       <g transform="translate(45, 360)">
-        <rect x="0" y="0" width="300" height="34" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
-        <text x="15" y="21" class="font-sans" font-size="12" font-weight="600" fill="#64748B">Specialty:</text>
-        <text x="85" y="21" class="font-sans" font-size="12" font-weight="700" fill="#0F172A">Full-Stack Engineer</text>
+        <rect x="0" y="0" width="300" height="36" rx="10" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+        <text x="150" y="23" text-anchor="middle" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">⚡ Full-Stack Developer</text>
       </g>
 
-      <g transform="translate(45, 405)">
-        <rect x="0" y="0" width="300" height="34" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
-        <text x="15" y="21" class="font-sans" font-size="12" font-weight="600" fill="#64748B">Location:</text>
-        <text x="85" y="21" class="font-sans" font-size="12" font-weight="700" fill="#0F172A">Marrakech, Morocco 🇲🇦</text>
+      <g transform="translate(45, 408)">
+        <rect x="0" y="0" width="300" height="36" rx="10" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+        <text x="150" y="23" text-anchor="middle" class="font-sans" font-size="13" font-weight="600" fill="#0F172A">📍 Marrakech, Morocco 🇲🇦</text>
       </g>
 
       <!-- Status Bar at Bottom of Left Panel -->
@@ -194,27 +192,22 @@
         </rect>
       </g>
 
-      <!-- SEQUENTIALLY REVEALED INFO DETAILS -->
-      <g transform="translate(35, 198)">
-        <!-- Item 1: Location -->
+      <!-- INFO DETAILS -->
+      <g transform="translate(35, 204)">
+        <!-- Item 1: Education -->
         <g transform="translate(0, 0)">
-          <text x="0" y="14" class="font-mono" font-size="13" font-weight="600" fill="#4F46E5">📍 Location:</text>
-          <text x="135" y="14" class="font-sans" font-size="13.5" font-weight="500" fill="#0F172A">Marrakech, Morocco 🇲🇦</text>
+          <text x="0" y="14" class="font-mono" font-size="13.5" font-weight="600" fill="#4F46E5">🎓 Education:</text>
+          <text x="135" y="14" class="font-sans" font-size="14" font-weight="500" fill="#0F172A">ISTA NTIC Marrakech (Full-Stack Track)</text>
         </g>
-        <!-- Item 2: Education -->
-        <g transform="translate(0, 28)">
-          <text x="0" y="14" class="font-mono" font-size="13" font-weight="600" fill="#4F46E5">🎓 Education:</text>
-          <text x="135" y="14" class="font-sans" font-size="13.5" font-weight="500" fill="#0F172A">ISTA NTIC Marrakech (Full-Stack Track)</text>
+        <!-- Item 2: Location -->
+        <g transform="translate(0, 32)">
+          <text x="0" y="14" class="font-mono" font-size="13.5" font-weight="600" fill="#4F46E5">📍 Location:</text>
+          <text x="135" y="14" class="font-sans" font-size="14" font-weight="500" fill="#0F172A">Marrakech, Morocco 🇲🇦</text>
         </g>
-        <!-- Item 3: Specialty -->
-        <g transform="translate(0, 56)">
-          <text x="0" y="14" class="font-mono" font-size="13" font-weight="600" fill="#4F46E5">⚡ Specialty:</text>
-          <text x="135" y="14" class="font-sans" font-size="13.5" font-weight="500" fill="#0F172A">Laravel 12 · React 18 · TypeScript</text>
-        </g>
-        <!-- Item 4: Email -->
-        <g transform="translate(0, 84)">
-          <text x="0" y="14" class="font-mono" font-size="13" font-weight="600" fill="#4F46E5">✉️ Email:</text>
-          <text x="135" y="14" class="font-mono" font-size="12.5" font-weight="500" fill="#0F172A">Abdelbasset.errifi@gmail.com</text>
+        <!-- Item 3: Email -->
+        <g transform="translate(0, 64)">
+          <text x="0" y="14" class="font-mono" font-size="13.5" font-weight="600" fill="#4F46E5">✉️ Email:</text>
+          <text x="135" y="14" class="font-mono" font-size="13" font-weight="500" fill="#0F172A">Abdelbasset.errifi@gmail.com</text>
         </g>
       </g>
 
