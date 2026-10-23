@@ -214,7 +214,7 @@
         <!-- Item 4: Email -->
         <g transform="translate(0, 84)">
           <text x="0" y="14" class="font-mono" font-size="13" font-weight="600" fill="#6366F1">✉️ Email:</text>
-          <text x="135" y="14" class="font-mono" font-size="13" font-weight="500" fill="#F8FAFC">abdoerrifi05@gmail.com</text>
+          <text x="135" y="14" class="font-mono" font-size="12.5" font-weight="500" fill="#F8FAFC">Abdelbasset.errifi@gmail.com</text>
         </g>
       </g>
 
