@@ -1,17 +1,13 @@
 <!-- ═══════════════════════════════════════════════ -->
-<!--                    HEADER BANNER                -->
+<!--        PREMIUM DYNAMIC HERO BANNER (SVG)       -->
 <!-- ═══════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1B3A5C,50:2C5F8A,100:4A7BA7&height=250&section=header&text=ABDELBASSTE%20ERRIFI&fontSize=65&fontAlignY=40&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Laravel%20%26%20React%20Specialist&descAlignY=65&descAlign=50&fontColor=ffffff" width="100%" />
-</div>
-
-<!-- ═══════════════════════════════════════════════ -->
-<!--                  TYPING ANIMATION               -->
-<!-- ═══════════════════════════════════════════════ -->
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=23&pause=1000&color=4A7BA7&center=true&vCenter=true&width=650&lines=Welcome+to+my+GitHub+Profile!+%F0%9F%91%8B;Full-Stack+Developer+%7C+Laravel+%2B+React+%2B+TypeScript;Building+Barbershop+Multi-tenant+SaaS+%F0%9F%92%88;Graduation+Project%3A+SGAFO+Enterprise+Platform+%F0%9F%8E%93;Open+to+Full-Stack+Opportunities!+%F0%9F%9A%80" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+    <img alt="Abdelbasste Errifi — Full-Stack Developer Banner" src="./dark.svg" width="100%" />
+  </picture>
 </div>
 
 <!-- ═══════════════════════════════════════════════ -->
