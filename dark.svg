@@ -1,6 +1,6 @@
 <svg width="1180" height="610" viewBox="0 0 1180 610" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Master Outer Clipping -->
+    <!-- Outer Clip -->
     <clipPath id="outerClip">
       <rect x="0" y="0" width="1180" height="610" rx="26" />
     </clipPath>
@@ -18,12 +18,12 @@
       </stop>
     </linearGradient>
 
-    <!-- Animated ASCII Gradient -->
+    <!-- Animated Continuous ASCII Gradient -->
     <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#7C3AED" />
       <stop offset="50%" stop-color="#22D3EE" />
       <stop offset="100%" stop-color="#10B981" />
-      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="12s" repeatCount="indefinite" />
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="10s" repeatCount="indefinite" />
     </linearGradient>
 
     <!-- Border Shimmer Effect -->
@@ -38,11 +38,11 @@
     <!-- Moving Scanline Gradient -->
     <linearGradient id="scanlineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#22D3EE" stop-opacity="0" />
-      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.65" />
       <stop offset="100%" stop-color="#22D3EE" stop-opacity="0" />
     </linearGradient>
 
-    <!-- Floating Radial Orbs -->
+    <!-- Ambient Glowing Orbs -->
     <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.22" />
       <stop offset="100%" stop-color="#7C3AED" stop-opacity="0" />
@@ -58,12 +58,11 @@
 
     <!-- Soft Glow Filter -->
     <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feGaussianBlur stdDeviation="7" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
     <!-- Typing Text Clip Paths (4 Titles, 20s cycle) -->
-    <!-- Title 1: Full-Stack Developer (w: 240) -->
     <clipPath id="typeClip1">
       <rect x="0" y="0" height="35" width="0">
         <animate attributeName="width" dur="20s" repeatCount="indefinite"
@@ -72,7 +71,6 @@
       </rect>
     </clipPath>
 
-    <!-- Title 2: Laravel &amp; React Specialist (w: 300) -->
     <clipPath id="typeClip2">
       <rect x="0" y="0" height="35" width="0">
         <animate attributeName="width" dur="20s" repeatCount="indefinite"
@@ -81,7 +79,6 @@
       </rect>
     </clipPath>
 
-    <!-- Title 3: Multi-Tenant SaaS Architect (w: 320) -->
     <clipPath id="typeClip3">
       <rect x="0" y="0" height="35" width="0">
         <animate attributeName="width" dur="20s" repeatCount="indefinite"
@@ -90,7 +87,6 @@
       </rect>
     </clipPath>
 
-    <!-- Title 4: SGAFO Platform Creator (w: 280) -->
     <clipPath id="typeClip4">
       <rect x="0" y="0" height="35" width="0">
         <animate attributeName="width" dur="20s" repeatCount="indefinite"
@@ -108,7 +104,7 @@
       }
       .pill-badge:hover {
         transform: translateY(-2px) scale(1.05);
-        filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.4));
+        filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.45));
       }
       .social-btn {
         transition: transform 0.2s ease, opacity 0.2s ease;
@@ -176,11 +172,11 @@
     <rect x="1" y="1" width="1178" height="608" rx="25" fill="none" stroke="url(#borderShimmer)" stroke-width="1.8" />
 
     <!-- ============================================== -->
-    <!-- LEFT PANEL: CYBER ASCII & AVATAR (~38%)       -->
+    <!-- LEFT PANEL: REAL ANIMATED ASCII PORTRAIT       -->
     <!-- ============================================== -->
     <g transform="translate(35, 35)">
       <!-- Panel Glass Base -->
-      <rect x="0" y="0" width="390" height="540" rx="20" fill="#0F172A" fill-opacity="0.75" />
+      <rect x="0" y="0" width="390" height="540" rx="20" fill="#0F172A" fill-opacity="0.80" />
       <rect x="0" y="0" width="390" height="540" rx="20" fill="none" stroke="#1E293B" stroke-width="1" />
       <rect x="0" y="0" width="390" height="540" rx="20" fill="none" stroke="url(#borderShimmer)" stroke-width="1.2" />
 
@@ -189,37 +185,109 @@
       <circle cx="28" cy="22" r="5" fill="#10B981">
         <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
       </circle>
-      <text x="42" y="26" class="font-mono" font-size="11.5" font-weight="600" fill="#94A3B8">LIVE_TERMINAL · SHIPPING CODE</text>
-      <text x="365" y="26" class="font-mono" font-size="11" text-anchor="end" fill="#94A3B8">v2.6</text>
+      <text x="42" y="26" class="font-mono" font-size="11.5" font-weight="600" fill="#94A3B8">PORTRAIT_SCANNER // ERRIFI-X</text>
+      <text x="365" y="26" class="font-mono" font-size="11" text-anchor="end" fill="#22D3EE">ONLINE</text>
       <line x1="0" y1="44" x2="390" y2="44" stroke="#1E293B" stroke-width="1" />
 
-      <!-- Floating ASCII Group with Glow & Sweep -->
+      <!-- Floating Real ASCII Portrait -->
       <g>
         <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite" />
-        
-      <text x="230" y="145" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">          .----------------------.          </text>
-      <text x="230" y="162" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">         /    // CYBER DEV        \         </text>
-      <text x="230" y="179" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">        |   ERRIFI-X [ONLINE]      |        </text>
-      <text x="230" y="196" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">         \   LARAVEL + REACT      /         </text>
-      <text x="230" y="213" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">          '---------..-----------'          </text>
-      <text x="230" y="230" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">                    ||                      </text>
-      <text x="230" y="247" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">               .----''----.                 </text>
-      <text x="230" y="264" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">              /   ______   \                </text>
-      <text x="230" y="281" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">             |  /  -  - \   |               </text>
-      <text x="230" y="298" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">             | |  (o) (o)|  |               </text>
-      <text x="230" y="315" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">             |  \   __  /   |               </text>
-      <text x="230" y="332" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">             |   '====='    |               </text>
-      <text x="230" y="349" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">           .-'--------------'-.             </text>
-      <text x="230" y="366" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">          /  .--------------.  \            </text>
-      <text x="230" y="383" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">         /  /  FULL-STACK    \  \           </text>
-      <text x="230" y="400" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">        |  |   MARRAKECH 🇲🇦   |  |          </text>
-      <text x="230" y="417" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">        |  |   SHIPPING CODE  |  |          </text>
-      <text x="230" y="434" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">         \  \                /  /           </text>
-      <text x="230" y="451" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve">          '--'--------------'--'            </text>
+        <text x="195" y="74" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.0s" fill="freeze" />
+                        -==++==-              
+        </text>
+        <text x="195" y="91" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.06s" fill="freeze" />
+                      +%%@@@@@@%#=            
+        </text>
+        <text x="195" y="108" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.12s" fill="freeze" />
+                     #%%%%%%%%%%%@#           
+        </text>
+        <text x="195" y="125" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.18s" fill="freeze" />
+                    +@%%%%#*####%%@=          
+        </text>
+        <text x="195" y="142" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.24s" fill="freeze" />
+                    *%+==-:::---=*%+          
+        </text>
+        <text x="195" y="159" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.3s" fill="freeze" />
+                    =*---::::::--=%=          
+        </text>
+        <text x="195" y="176" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.36s" fill="freeze" />
+                    -*--:::::::---*-          
+        </text>
+        <text x="195" y="193" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.42s" fill="freeze" />
+                     =-===-::=+++==-          
+        </text>
+        <text x="195" y="210" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.48s" fill="freeze" />
+                    :--+**+-:++*+===:         
+        </text>
+        <text x="195" y="227" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.54s" fill="freeze" />
+                    -=------:--::-==          
+        </text>
+        <text x="195" y="244" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.6s" fill="freeze" />
+                     =-:::-::-:::-=:          
+        </text>
+        <text x="195" y="261" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.66s" fill="freeze" />
+                     :-:::-===-::--           
+        </text>
+        <text x="195" y="278" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.72s" fill="freeze" />
+                      +--=+++*+--+:           
+        </text>
+        <text x="195" y="295" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.78s" fill="freeze" />
+                      :*+--===-=#*            
+        </text>
+        <text x="195" y="312" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.84s" fill="freeze" />
+                       =##====*#*--=          
+        </text>
+        <text x="195" y="329" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.9s" fill="freeze" />
+                    :++--+#####+= =%*=-       
+        </text>
+        <text x="195" y="346" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="0.96s" fill="freeze" />
+                :=*##%=-=---==--  #%%%%#+=:   
+        </text>
+        <text x="195" y="363" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.02s" fill="freeze" />
+            :=*#%%%%#%- +------  =%%%%%%%%%#+-
+        </text>
+        <text x="195" y="380" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.08s" fill="freeze" />
+          -#%%%%%%%%%%- :==--:   *%%%%%%%%%%%%#
+        </text>
+        <text x="195" y="397" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.14s" fill="freeze" />
+          *%#%%%%%%%%%:   :-    -%##%%%%%%%%%%%
+        </text>
+        <text x="195" y="414" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.2s" fill="freeze" />
+          #%#%%%%%%%%%:         *%#%%%%%%%%%%%%
+        </text>
+        <text x="195" y="431" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.26s" fill="freeze" />
+          =%%%%%%%%%%%%-        :###%%%%%%%%%%%%
+        </text>
+        <text x="195" y="448" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" font-weight="600" fill="url(#asciiGrad)" xml:space="preserve" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.32s" fill="freeze" />
+           #%%%%%%%%%%%%-        =%##%%%%###%%%%
+        </text>
 
       </g>
 
-      <!-- Cyber Terminal Prompt at Bottom of Left Panel -->
+      <!-- Terminal Command Bar at Bottom -->
       <g transform="translate(24, 490)">
         <rect x="0" y="0" width="342" height="34" rx="8" fill="#030712" fill-opacity="0.6" stroke="#1E293B" stroke-width="1" />
         <text x="14" y="21" class="font-mono" font-size="12" fill="#22D3EE">&gt; whoami</text>
@@ -241,7 +309,7 @@
     <!-- ============================================== -->
     <g transform="translate(455, 35)">
       <!-- Panel Glass Base -->
-      <rect x="0" y="0" width="690" height="540" rx="20" fill="#0F172A" fill-opacity="0.75" />
+      <rect x="0" y="0" width="690" height="540" rx="20" fill="#0F172A" fill-opacity="0.80" />
       <rect x="0" y="0" width="690" height="540" rx="20" fill="none" stroke="#1E293B" stroke-width="1" />
       <rect x="0" y="0" width="690" height="540" rx="20" fill="none" stroke="url(#borderShimmer)" stroke-width="1.2" />
 
@@ -328,27 +396,27 @@
         <g transform="translate(0, 26)">
           <!-- Laravel 12 -->
           <g class="pill-badge" transform="translate(0, 0)">
-            <rect x="0" y="0" width="105" height="28" rx="8" fill="rgba(15, 23, 42, 0.75)" stroke="#7C3AED" stroke-width="1" />
+            <rect x="0" y="0" width="105" height="28" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#7C3AED" stroke-width="1" />
             <text x="52" y="18" class="font-sans" font-size="12" font-weight="600" text-anchor="middle" fill="#F8FAFC">🔥 Laravel 12</text>
           </g>
           <!-- React 18 -->
           <g class="pill-badge" transform="translate(115, 0)">
-            <rect x="0" y="0" width="95" height="28" rx="8" fill="rgba(15, 23, 42, 0.75)" stroke="#22D3EE" stroke-width="1" />
+            <rect x="0" y="0" width="95" height="28" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#22D3EE" stroke-width="1" />
             <text x="47" y="18" class="font-sans" font-size="12" font-weight="600" text-anchor="middle" fill="#F8FAFC">⚛️ React 18</text>
           </g>
           <!-- TypeScript -->
           <g class="pill-badge" transform="translate(220, 0)">
-            <rect x="0" y="0" width="105" height="28" rx="8" fill="rgba(15, 23, 42, 0.75)" stroke="#22D3EE" stroke-width="1" />
+            <rect x="0" y="0" width="105" height="28" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#22D3EE" stroke-width="1" />
             <text x="52" y="18" class="font-sans" font-size="12" font-weight="600" text-anchor="middle" fill="#F8FAFC">📘 TypeScript</text>
           </g>
           <!-- Inertia.js -->
           <g class="pill-badge" transform="translate(335, 0)">
-            <rect x="0" y="0" width="102" height="28" rx="8" fill="rgba(15, 23, 42, 0.75)" stroke="#7C3AED" stroke-width="1" />
+            <rect x="0" y="0" width="102" height="28" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#7C3AED" stroke-width="1" />
             <text x="51" y="18" class="font-sans" font-size="12" font-weight="600" text-anchor="middle" fill="#F8FAFC">⚡ Inertia v2</text>
           </g>
           <!-- PostgreSQL 16 -->
           <g class="pill-badge" transform="translate(447, 0)">
-            <rect x="0" y="0" width="118" height="28" rx="8" fill="rgba(15, 23, 42, 0.75)" stroke="#10B981" stroke-width="1" />
+            <rect x="0" y="0" width="118" height="28" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#10B981" stroke-width="1" />
             <text x="59" y="18" class="font-sans" font-size="12" font-weight="600" text-anchor="middle" fill="#F8FAFC">🐘 PostgreSQL</text>
           </g>
         </g>
@@ -357,27 +425,27 @@
         <g transform="translate(0, 62)">
           <!-- TailwindCSS -->
           <g class="pill-badge" transform="translate(0, 0)">
-            <rect x="0" y="0" width="112" height="28" rx="8" fill="rgba(15, 23, 42, 0.75)" stroke="#22D3EE" stroke-width="1" />
+            <rect x="0" y="0" width="112" height="28" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#22D3EE" stroke-width="1" />
             <text x="56" y="18" class="font-sans" font-size="12" font-weight="600" text-anchor="middle" fill="#F8FAFC">🎨 TailwindCSS</text>
           </g>
           <!-- Docker -->
           <g class="pill-badge" transform="translate(122, 0)">
-            <rect x="0" y="0" width="88" height="28" rx="8" fill="rgba(15, 23, 42, 0.75)" stroke="#7C3AED" stroke-width="1" />
+            <rect x="0" y="0" width="88" height="28" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#7C3AED" stroke-width="1" />
             <text x="44" y="18" class="font-sans" font-size="12" font-weight="600" text-anchor="middle" fill="#F8FAFC">🐳 Docker</text>
           </g>
           <!-- Vite 7 -->
           <g class="pill-badge" transform="translate(220, 0)">
-            <rect x="0" y="0" width="82" height="28" rx="8" fill="rgba(15, 23, 42, 0.75)" stroke="#7C3AED" stroke-width="1" />
+            <rect x="0" y="0" width="82" height="28" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#7C3AED" stroke-width="1" />
             <text x="41" y="18" class="font-sans" font-size="12" font-weight="600" text-anchor="middle" fill="#F8FAFC">⚡ Vite 7</text>
           </g>
           <!-- MySQL -->
           <g class="pill-badge" transform="translate(312, 0)">
-            <rect x="0" y="0" width="85" height="28" rx="8" fill="rgba(15, 23, 42, 0.75)" stroke="#10B981" stroke-width="1" />
+            <rect x="0" y="0" width="85" height="28" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#10B981" stroke-width="1" />
             <text x="42" y="18" class="font-sans" font-size="12" font-weight="600" text-anchor="middle" fill="#F8FAFC">🐬 MySQL</text>
           </g>
           <!-- Git & GitHub -->
           <g class="pill-badge" transform="translate(407, 0)">
-            <rect x="0" y="0" width="105" height="28" rx="8" fill="rgba(15, 23, 42, 0.75)" stroke="#22D3EE" stroke-width="1" />
+            <rect x="0" y="0" width="105" height="28" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#22D3EE" stroke-width="1" />
             <text x="52" y="18" class="font-sans" font-size="12" font-weight="600" text-anchor="middle" fill="#F8FAFC">🐙 Git / GitHub</text>
           </g>
         </g>
@@ -387,7 +455,7 @@
       <g transform="translate(35, 480)">
         <!-- Availability Status Pill -->
         <g class="pill-badge" transform="translate(0, 0)">
-          <rect x="0" y="0" width="280" height="34" rx="17" fill="rgba(15, 23, 42, 0.75)" stroke="#10B981" stroke-width="1.2" />
+          <rect x="0" y="0" width="280" height="34" rx="17" fill="rgba(15, 23, 42, 0.85)" stroke="#10B981" stroke-width="1.2" />
           <circle cx="20" cy="17" r="4.5" fill="#10B981">
             <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite" />
           </circle>
