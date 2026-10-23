@@ -11,13 +11,29 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════ -->
-<!--              STATUS & SOCIAL BADGES             -->
+<!--           CLICKABLE SOCIAL CONNECTORS           -->
 <!-- ═══════════════════════════════════════════════ -->
 
 <div align="center">
 
-  [![Location](https://img.shields.io/badge/Location-Marrakech%2C%20Morocco%20🇲🇦-1B3A5C?style=for-the-badge&logoColor=white)](https://github.com/ERRIFI-X)
-  [![Status](https://img.shields.io/badge/Status-🟢%20Open%20to%20Work-2C5F8A?style=for-the-badge&logoColor=white)](mailto:Abdelbasset.errifi@gmail.com)
+  <a href="https://github.com/ERRIFI-X" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-ERRIFI--X-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/abdelbasste-errifi-a4ab2b2b2" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Abdelbasste%20Errifi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:Abdelbasset.errifi@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Abdelbasset.errifi@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/ERRIFI-X">
+    <img src="https://img.shields.io/badge/Location-Marrakech%2C%20Morocco%20🇲🇦-1B3A5C?style=for-the-badge&logoColor=white" />
+  </a>
+
+</div>
+
+<div align="center" style="margin-top: 6px;">
+
+  [![Status](https://img.shields.io/badge/Status-🟢%20Open%20to%20Work-059669?style=for-the-badge&logoColor=white)](mailto:Abdelbasset.errifi@gmail.com)
   [![Profile Views](https://komarev.com/ghpvc/?username=ERRIFI-X&label=Profile%20Views&color=4A7BA7&style=for-the-badge)](https://github.com/ERRIFI-X)
   [![GitHub Followers](https://img.shields.io/github/followers/ERRIFI-X?label=Followers&style=for-the-badge&color=1B3A5C&logo=github&logoColor=white)](https://github.com/ERRIFI-X?tab=followers)
   [![GitHub Stars](https://img.shields.io/github/stars/ERRIFI-X?label=Stars&style=for-the-badge&color=2C5F8A&logo=github&logoColor=white)](https://github.com/ERRIFI-X?tab=repositories)
